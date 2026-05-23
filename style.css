@@ -1,1 +1,151 @@
-/* Add you CSS here */
+   /* Basic page setup */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: blue;
+      color: red;
+      line-height: 2.5;
+    }
+
+    /* Header and navigation */
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #d1d5db;
+    }
+
+    nav {
+      background-color: #111827;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    /* Main container */
+    main {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    /* Sections */
+    section {
+      background-color: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      color: #1f2937;
+      border-bottom: 3px solid #60a5fa;
+      padding-bottom: 8px;
+    }
+
+    /* Home section */
+    .home-box {
+      text-align: center;
+    }
+
+    .home-box h2 {
+      border-bottom: none;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #1d4ed8;
+    }
+
+    /* Skills layout */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .skills-list li {
+      background-color: #e0f2fe;
+      color: #075985;
+      padding: 10px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    /* Card layout */
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background-color: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 18px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #2563eb;
+    }
+
+    /* Links */
+    .links-list a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    /* Responsive navigation for smaller screens */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+    }
